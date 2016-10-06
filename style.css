@@ -1,6 +1,9 @@
 html {
     background-color: #0048ff;
     background-image: url("https://www.transparenttextures.com/patterns/knitted-sweater.png");
+    width: 100px;
+    margin: auto;
+    border: 3px solid #73AD21;
 }
 h1 {
     text-align:center;   
