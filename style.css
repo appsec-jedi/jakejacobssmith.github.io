@@ -5,6 +5,9 @@ html {
     margin: auto;
     border: 3px solid #000000;
 }
+Body {
+    font-family: "Times New Roman", Georgia, Serif;  
+}
 h1 {
     text-align:center;   
 }
