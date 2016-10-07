@@ -13,12 +13,20 @@
       <h3 style=text-align:center>1414 Laurel Ave W. Apt L408, Minneapolis, MN 55403</h3>
       <h3 style="text-align:center"><a href="https://www.linkedin.com/in/jakejacobssmith" style="text-align:center">My LinkedIn Profile</a></h3>
     </div>  
-      <br>
+      <br>    
     <h3>Excel in liaising between business and technical areas to achieve on-time, on-budget and on-spec project completions. Able to merge customer and user needs with business requirements, budgetary restrictions and logistical considerations to meet project deliverables.</h3>
     <h3>Business strategist; plan and manage multimillion-dollar projects aligning business goals with technology solutions to drive process improvements, competitive advantage and bottom-line gains.</h3>
     <h3>Excellent communicator; leverage technical, business and financial acumen to communicate effectively with client executives and their respective teams.</h3>
     <h3>Proficient in Agile Methodology and HTML</h3>
-      <hr>
+      <br>
+    <h2>Click on a tab to learn more about me</h2>
+    <ul class="tab">
+      <li><a href="#" class="tablinks" onclick="openTab(event, 'Experience')">Experience</a></li>
+      <li><a href="#" class="tablinks" onclick="openTab(event, 'Education')">Education</a></li>
+      <li><a href="#" class="tablinks" onclick="openTab(event, 'Hobbies')">Hobbies</a></li>
+    </ul>
+    
+    <div id="Experience" class="tabcontent">
     <h2>Experience</h2>
     <h3>Magenic Technologies 2015-2016</h3>
     <h4> Account Management </h4>
@@ -59,7 +67,8 @@
           <li>2012- Task Group Trident – Camp Sabalu-Harison, Afghanistan</li>
         </ul>
     </ul>
-      <hr>
+    </div>
+    <div id="Education" class="tabcontent">
     <h2>Education</h2>
         <h3>Minnetonka High School</h3>
         <h3>Auburn University</h3>
@@ -69,7 +78,9 @@
             <li>Member of Political Science Honor Society Pi Sigma Alpha</li>
             <li>Member of Golden Key International Honor Society</li>
           </ul>
-    <hr>
+    </div>
+    
+    <div id="Hobbies" class="tabcontent">
     <h2>Hobbies</h2>
     <ul>
       <li>Reading and learning new things</li>
@@ -77,6 +88,24 @@
       <li> 
         <a href="http://www.auburntigers.com/">Auburn Football</a>
       </li>
-    </ul> 
+    </ul>
+    </div>
+    
+    <script>
+function openCity(evt, cityName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+}
+</script>
+    
    </body>
  </html>
