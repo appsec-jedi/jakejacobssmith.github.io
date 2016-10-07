@@ -32,7 +32,7 @@ ul.tab {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    border: 1px solid #ccc;
+    border: 1px solid #000000;
     background-color: #0048FF;
     text-align:center;
 }
