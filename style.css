@@ -5,6 +5,9 @@ html {
     margin: auto;
     border: 3px solid #000000;
 }
+div{
+    color: #ffffff
+}
 Body {
     font-family: "Comic Sans MS"; 
 }
