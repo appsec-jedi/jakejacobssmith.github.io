@@ -32,7 +32,6 @@ ul.tab {
     overflow: hidden;
     border: 1px solid #000000;
     background-color: #0048FF;
-    width: 1000px;
 }
 
 ul.tab li {float: left;}
