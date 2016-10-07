@@ -34,7 +34,7 @@ ul.tab {
     background-color: #FFA500;
 }
 
-ul.tab li {float: center;}
+ul.tab li {float: left;}
 
 
 ul.tab li a {
