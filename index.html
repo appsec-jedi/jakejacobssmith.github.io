@@ -21,9 +21,9 @@
       <br>
     <h2 style=text-align:center>Click on a tab to learn more about me</h2>
     <ul class="tab">
-      <li><a href="#" class="tablinks" onclick="openCity(event, 'Experience')">Experience</a></li>
-      <li><a href="#" class="tablinks" onclick="openCity(event, 'Education')">Education</a></li>
-      <li><a href="#" class="tablinks" onclick="openCity(event, 'Hobbies')">Hobbies</a></li>
+      <li><a href="#" class="tablinks" onclick="openTab(event, 'Experience')">Experience</a></li>
+      <li><a href="#" class="tablinks" onclick="openTab(event, 'Education')">Education</a></li>
+      <li><a href="#" class="tablinks" onclick="openTab(event, 'Hobbies')">Hobbies</a></li>
     </ul>
     
     <div id="Experience" class="tabcontent">
@@ -92,7 +92,7 @@
     </div>
     
     <script>
-function openCity(evt, cityName) {
+function openTab(evt, cityName) {
     var i, tabcontent, tablinks;
     tabcontent = document.getElementsByClassName("tabcontent");
     for (i = 0; i < tabcontent.length; i++) {
@@ -102,7 +102,7 @@ function openCity(evt, cityName) {
     for (i = 0; i < tablinks.length; i++) {
         tablinks[i].className = tablinks[i].className.replace(" active", "");
     }
-    document.getElementById(cityName).style.display = "block";
+    document.getElementById(tabName).style.display = "block";
     evt.currentTarget.className += " active";
 }
 </script>
