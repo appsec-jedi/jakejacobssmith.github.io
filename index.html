@@ -3,34 +3,37 @@
   <head>
     <title>Jake Jacobs-Smith's Resume</title>
     <link rel="stylesheet" href="style.css"/>
+    <script src="jquery-3.1.1.js"></script>
+    <script src="application.js"></script>
   </head>
-  
+
   <body>
+    <div class="button">
+      <h1>Click here to see my resume</h1>
+    </div>
+    <div class="main">
     <header>
       <figure>
-       <a href="https://www.linkedin.com/in/jakejacobssmith"><img src="https://lh3.googleusercontent.com/-fB00CFAXYeo/V_afJoPbQpI/AAAAAAAABaY/TrXirP0kQsgY28y-HaMrtZlnYlJK-FnWACL0B/h398/2016-10-06.jpg"/></a>
-      </figure> 
+       <a href="https://www.linkedin.com/in/jakejacobssmith"><img src="http://i.imgur.com/HUBC6pA.jpg" class="pic"/></a>
+      </figure>
+        <br>
+        <br>
+        <br>
+        <br>
       <h1>James "Jake" Jacobs-Smith</h1>
       <h3 style=text-align:center>612.964.9815</h3>
       <h3 style="text-align:center"><a href="https://www.linkedin.com/in/jakejacobssmith" style="text-align:center">My LinkedIn Profile</a></h3>
-      <br>   
+      <br>
+      <br>
     </header>
     <section>
-    <h3>Excel in liaising between business and technical areas to achieve on-time, on-budget and on-spec project completions. Able to merge customer and user needs with business requirements, budgetary restrictions and logistical considerations to meet project deliverables.</h3>
+    <h3>Excel in liaising between business and technical areas to achieve on-time, on-budget and on-spec project completions. Able to merge customer and user needs with business requirements, budgetary restrictions and logistical considerations to meet project deliverables.</h3>
     <h3>Business strategist; plan and manage multimillion-dollar projects aligning business goals with technology solutions to drive process improvements, competitive advantage and bottom-line gains.</h3>
     <h3>Excellent communicator; leverage technical, business and financial acumen to communicate effectively with client executives and their respective teams.</h3>
-    <h3>Proficient in Agile Methodology and HTML</h3>
+    <h3>Proficient in Agile Methodology, HTML, CSS and JavaScript</h3>
       <br>
-    <h2 style=text-align:center>Click on a tab and scroll down to learn more about me</h2>
-    <ul class="tab">
-      <li><a href="#" class="tablinks" onclick="openTab(event, 'Experience')">Experience</a></li>
-      <li><a href="#" class="tablinks" onclick="openTab(event, 'Education')">Education</a></li>
-      <li><a href="#" class="tablinks" onclick="openTab(event, 'Hobbies')">Hobbies</a></li>
-    </ul>
     </section>
-    
-    <nav id="Experience" class="tabcontent">
-      <h2>Experience</h2>
+      <h2 class="experience">Experience</h2>
       <h3>Magenic Technologies 2015-Present</h3>
       <h4> Account Management </h4>
         <ul>
@@ -70,42 +73,21 @@
             <li>2012- Task Group Trident – Camp Sabalu-Harison, Afghanistan</li>
           </ul>
       </ul>
-    </nav>
-    <nav id="Education" class="tabcontent">
-      <h2>Education</h2>
+      <h2 class="education">Education</h2>
           <h3>Minnetonka High School</h3>
           <h3>Auburn University</h3>
           <h3>Florida Gulf Coast University</h3>
             <ul>
               <li>Placed on Dean’s list both semesters</li>
-              <li>Member of Political Science Honor Society Pi Sigma Alpha</li>
+              <li>Member of Political Science Honor Society Pi Sigma Alpha </li>
               <li>Member of Golden Key International Honor Society</li>
             </ul>
-    </nav>
-    <nav id="Hobbies" class="tabcontent">
-      <h2>Hobbies</h2>
+      <h2 class="hobbies">Hobbies</h2>
       <ul>
         <li>Reading and learning new things</li>
         <li>Enjoying the great outdoors and staying active</li>
-        <li> <a href="http://www.auburntigers.com/">Auburn Football</a></li>
+        <li>Auburn Football <img src="https://cdn.meme.am/cache/instances/folder173/500x/67624173.jpg" class="doge"</li>
       </ul>
-    </nav>
-    
-    <script>
-function openTab(evt, tabName) {
-    var i, tabcontent, tablinks;
-    tabcontent = document.getElementsByClassName("tabcontent");
-    for (i = 0; i < tabcontent.length; i++) {
-        tabcontent[i].style.display = "none";
-    }
-    tablinks = document.getElementsByClassName("tablinks");
-    for (i = 0; i < tablinks.length; i++) {
-        tablinks[i].className = tablinks[i].className.replace(" active", "");
-    }
-    document.getElementById(tabName).style.display = "block";
-    evt.currentTarget.className += " active";
-}
-</script>
-    
-   </body>
+    </div>
+  </body>
  </html>
